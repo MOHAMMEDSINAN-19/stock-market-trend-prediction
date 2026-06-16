@@ -86,10 +86,15 @@ next_day_close
 
 
 ColumnTransformer
+
 StandardScaler
+
 Automated Preprocessing
+
 Linear Regression Model
+
 End-to-End Pipeline Creation
+
 Pipeline Serialization using Joblib
 
 
@@ -101,7 +106,10 @@ Real-Time Predictions
 Technical Indicators
 Signal Analysis
 Risk Assessment Dashboard
-Machine Learning Models
+
+
+## Machine Learning Models
+
 
 The following regression models were trained and evaluated:
 
@@ -143,11 +151,17 @@ Linear Regression achieved the highest R² score and lowest RMSE, making it the 
 The deployed application allows users to:
 
 Select stock companies
+
 Enter stock market indicators
+
 Generate real-time stock price predictions
+
 View technical signals
+
 Analyze market trends
+
 Explore confidence intervals and risk indicators
+
 
 
 ## Project Structure
