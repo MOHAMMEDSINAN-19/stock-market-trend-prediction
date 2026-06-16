@@ -191,7 +191,10 @@ StockVision-AI/
 ## Conclusion
 
 
-This project demonstrates how Machine Learning Regression techniques can be applied to stock market forecasting. By integrating data preprocessing, predictive modeling, automated pipelines, and Streamlit deployment, the solution provides a complete end-to-end workflow for stock price prediction and financial data analysis.
+This project demonstrates how Machine Learning Regression techniques can be applied to stock market forecasting. By integrating data preprocessing, predictive modeling, automated pipelines, and Streamlit deployment, the solution provides a complete end-to-end workflow for stock price prediction and financial data analysis. 
+
+## streamlit app link
+https://stock-market-trend-prediction-7d5ttfspyebqbltkwjasix.streamlit.app/
 
 
 ## Author
