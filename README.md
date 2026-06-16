@@ -1,5 +1,9 @@
 # StockVision AI: Predictive Analysis of Stock Market Trends
+
+
 ## Project Overview
+
+
 StockVision AI is a Machine Learning-based stock market forecasting system designed to analyze historical stock market data and predict the next day's closing stock price.
 
 The project combines data preprocessing, exploratory data analysis, feature engineering, regression modeling, pipeline automation, and interactive deployment through Streamlit.
@@ -7,6 +11,8 @@ The project combines data preprocessing, exploratory data analysis, feature engi
 The final solution provides real-time stock price predictions using an automated machine learning pipeline and a user-friendly web interface.
 
 ## Objectives
+
+
 - Analyze historical stock market trends and patterns.
 - Identify relationships between stock market indicators.
 - Build and compare multiple regression models.
@@ -15,6 +21,7 @@ The final solution provides real-time stock price predictions using an automated
 - Deploy the model through a Streamlit web application.
 
 ## Technologies Used
+
 
 - Python
 - Pandas
@@ -31,6 +38,7 @@ The final solution provides real-time stock price predictions using an automated
 
 ## Dataset Information
 
+
 The dataset contains historical stock market information, including:
 
 - Open Price
@@ -46,6 +54,7 @@ The dataset contains historical stock market information, including:
 
 ### Target Variable:
 
+
 next_day_close
 
 
@@ -55,16 +64,26 @@ next_day_close
 # Phase 1: Data Science Workflow
 
 1.Problem Definition
+
 2.Data Collection & Ingestion
+
 3.Exploratory Data Analysis (EDA)
+
 4.Data Cleaning & Preprocessing
+
 5.Feature Engineering
+
 6.Model Training
+
 7.Hyperparameter Tuning
+
 8.Model Evaluation
+
 9.Unseen Data Prediction
 
+
 # Phase 2: Pipeline Integration
+
 
 ColumnTransformer
 StandardScaler
@@ -73,7 +92,9 @@ Linear Regression Model
 End-to-End Pipeline Creation
 Pipeline Serialization using Joblib
 
+
 # Phase 3: Streamlit Deployment
+
 
 Interactive User Interface
 Real-Time Predictions
@@ -83,6 +104,7 @@ Risk Assessment Dashboard
 Machine Learning Models
 
 The following regression models were trained and evaluated:
+
 
 #### Linear Regression
 MAE: 2.2058
@@ -103,6 +125,7 @@ Linear Regression achieved the highest R² score and lowest RMSE, making it the 
 
 ## Key Features
 
+
 - Historical Trend Analysis
 - Correlation Heatmap
 - Candlestick Visualization
@@ -115,6 +138,7 @@ Linear Regression achieved the highest R² score and lowest RMSE, making it the 
 
   
 ## Streamlit Application
+
 
 The deployed application allows users to:
 
@@ -139,8 +163,13 @@ StockVision-AI/
 │
 └── Dataset/
     └── stock_market_dataset.csv
+
+    
 ## Conclusion
+
+
 This project demonstrates how Machine Learning Regression techniques can be applied to stock market forecasting. By integrating data preprocessing, predictive modeling, automated pipelines, and Streamlit deployment, the solution provides a complete end-to-end workflow for stock price prediction and financial data analysis.
+
 
 ## Author
 Mohammed Sinan
