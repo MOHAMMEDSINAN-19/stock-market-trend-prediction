@@ -163,27 +163,23 @@ Analyze market trends
 Explore confidence intervals and risk indicators
 
 
-
 ## Project Structure
 
 
+```text
 StockVision-AI/
-
 │
 ├── Predictive Analysis of Stock Market Trends.ipynb
-
 ├── stock_app.py
-
 ├── stock_price_pipeline.pkl
-
 ├── requirements.txt
-
 ├── README.md
-
 │
 └── Dataset/
-
     └── stock_market_dataset.csv
+```
+
+
     
 
 
